@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="assets/img/iconmonstr-menu-lined.svg" alt="" />
+        <img id="logo" src="assets/img/YouTube_Logo_2017.svg.png" alt="" />
+      </div>
+
+      <div class="search-bar">
+        <input type="text" />
+        <div id="button-search">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="right">
+        <img src="assets/img/iconmonstr-video-camera-thin.svg" alt="" />
+        <img src="assets/img/iconmonstr-bell-thin.svg" alt="" />
+        <img id="profile-picture" src="assets/img/eu.png" alt="" />
+      </div>
+    </nav>
+
+    <div class="main">
+      <aside>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yMiAxMS40MTR2MTIuNTg2aC0yMHYtMTIuNTg2bC0xLjI5MyAxLjI5My0uNzA3LS43MDcgMTItMTIgMTIgMTItLjcwNy43MDctMS4yOTMtMS4yOTN6bS02IDExLjU4Nmg1di0xMi41ODZsLTktOS05IDl2MTIuNTg2aDV2LTloOHY5em0tMS03Ljg4OWgtNnY3Ljc3OGg2di03Ljc3OHoiLz48L3N2Zz4="/>
+          <p>Inicio</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem02IDUuOTk5bC01LjYyMSAyLjk4NmMtLjg5OS0uMTA0LTEuODA2LjE5MS0yLjQ3NC44NTktLjY2Mi42NjMtLjk1IDEuNTYxLS44NjIgMi40MjhsLTMuMDQzIDUuNzI4IDUuNzI0LTMuMDQyYy44ODQuMDg5IDEuNzcyLS4yMDUgMi40MzItLjg2NS42MzQtLjYzNC45NjktMS41MjQuODU5LTIuNDczbDIuOTg1LTUuNjIxem0tNS45NyA3LjIyYy0uNjg5IDAtMS4yNS0uNTU5LTEuMjUtMS4yNDktLjAwMS0uNjkxLjU1OS0xLjI1MSAxLjI1LTEuMjUuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNS0uMDAxLjY4OS0uNTYgMS4yNDktMS4yNSAxLjI0OXoiLz48L3N2Zz4="/>
+         <p>Explorar</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuMjMgNy4xMDJjLTIuMDAyLS4xMzYtNi40NjItLjEzNS04LjQ2MSAwLTIuMTY1LjE0OC0yLjQxOSAxLjQ1Ni0yLjQzNiA0Ljg5OC4wMTcgMy40MzYuMjcgNC43NSAyLjQzNyA0Ljg5OCAxLjk5OS4xMzUgNi40NTkuMTM2IDguNDYxIDAgMi4xNjUtLjE0OCAyLjQyLTEuNDU3IDIuNDM3LTQuODk4LS4wMTgtMy40MzYtLjI3MS00Ljc1LTIuNDM4LTQuODk4em0tNi4yMyA3LjEydi00LjQ0NGw0Ljc3OCAyLjIxOC00Ljc3OCAyLjIyNnptMi0xMi4yMjJjNS41MTQgMCAxMCA0LjQ4NiAxMCAxMHMtNC40ODYgMTAtMTAgMTAtMTAtNC40ODYtMTAtMTAgNC40ODYtMTAgMTAtMTB6bTAtMmMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnoiLz48L3N2Zz4=">
+          <p>Inscrições</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yMiAxM2MtLjAyNy01LjQ5Ny00LjQ5Ny0xMC0xMC0xMHMtOS45NzMgNC41MDMtMTAgMTBoMi41Yy44MjggMCAxLjUuNjcyIDEuNSAxLjV2N2MwIC44MjgtLjY3MiAxLjUtMS41IDEuNWgtM2MtLjgyOCAwLTEuNS0uNjcyLTEuNS0xLjV2LTguNWMuMDI3LTYuNjAxIDUuMzk0LTEyIDEyLTEyczExLjk3MyA1LjM5OSAxMiAxMnY4LjVjMCAuODI4LS42NzIgMS41LTEuNSAxLjVoLTNjLS44MjggMC0xLjUtLjY3Mi0xLjUtMS41di03YzAtLjgyOC42NzItMS41IDEuNS0xLjVoMi41eiIvPjwvc3ZnPg==">
+          <p>Youtube Music</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjEuNDA2IDkuNTU4Yy0xLjIxLS4wNTEtMi44Ny0uMjc4LTMuOTc3LS43NDQuODA5LTMuMjgzIDEuMjUzLTguODE0LTIuMTk2LTguODE0LTEuODYxIDAtMi4zNTEgMS42NjgtMi44MzMgMy4zMjktMS41NDggNS4zMzYtMy45NDYgNi44MTYtNi40IDcuNDAxdi0uNzNoLTZ2MTJoNnYtLjkwNGMyLjM3OC4yMjggNC4xMTkuODY0IDYuMTY5IDEuNzQ2IDEuMjU3LjU0MSAzLjA1MyAxLjE1OCA1LjMzNiAxLjE1OCAyLjUzOCAwIDQuMjk1LS45OTcgNS4wMDktMy42ODYuNS0xLjg3NyAxLjQ4Ni03LjI1IDEuNDg2LTguMjUgMC0xLjY0OC0xLjE2OC0yLjQ0Ni0yLjU5NC0yLjUwNnptLTE3LjQwNiAxMC40NDJoLTJ2LThoMnY4em0xNS44OTYtNS41ODNzLjIwMS4wMSAxLjA2OS0uMDI3YzEuMDgyLS4wNDYgMS4wNTEgMS40NjkuMDA0IDEuNTYzbC0xLjc2MS4wOTljLS43MzQuMDk0LS42NTYgMS4yMDMuMTQxIDEuMTcyIDAgMCAuNjg2LS4wMTcgMS4xNDMtLjA0MSAxLjA2OC0uMDU2IDEuMDE2IDEuNDI5LjA0IDEuNTUxLS40MjQuMDUzLTEuNzQ1LjExNS0xLjc0NS4xMTUtLjgxMS4wNzItLjcwNiAxLjIzNS4xMDkgMS4xNDFsLjc3MS0uMDMxYy44MjItLjA3NCAxLjAwMy44MjUtLjI5MiAxLjY2MS0xLjU2Ny44ODEtNC42ODUuMTMxLTYuNDE2LS42MTQtMi4yMzktLjk2NS00LjQzOC0xLjkzNC02Ljk1OS0yLjAwNnYtNmMzLjI2NC0uNzQ5IDYuMzI4LTIuMjU0IDguMzIxLTkuMTEzLjg5OC0zLjA5MiAxLjY3OS0xLjkzMSAxLjY3OS41NzQgMCAyLjA3MS0uNDkgMy43ODYtLjkyMSA1LjUzMyAxLjA2MS41NDMgMy4zNzEgMS40MDIgNi4xMiAxLjU1NiAxLjA1NS4wNTkgMS4wMjQgMS40NTUtLjA1MSAxLjU4NGwtMS4zOTQuMTY3cy0uNjA4IDEuMTExLjE0MiAxLjExNnoiLz48L3N2Zz4=">
+          <p>Vídeos que gostei</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMiAwYzYuNjIzIDAgMTIgNS4zNzcgMTIgMTJzLTUuMzc3IDEyLTEyIDEyLTEyLTUuMzc3LTEyLTEyIDUuMzc3LTEyIDEyLTEyem0wIDFjNi4wNzEgMCAxMSA0LjkyOSAxMSAxMXMtNC45MjkgMTEtMTEgMTEtMTEtNC45MjktMTEtMTEgNC45MjktMTEgMTEtMTF6bTAgMTFoNnYxaC03di05aDF2OHoiLz48L3N2Zz4=">  
+          <p>Assistir mais tarde</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNi45NjUgMi4zODFjMy41OTMgMS45NDYgNi4wMzUgNS43NDkgNi4wMzUgMTAuMTE5IDAgNi4zNDctNS4xNTMgMTEuNS0xMS41IDExLjVzLTExLjUtNS4xNTMtMTEuNS0xMS41YzAtNC4zNyAyLjQ0Mi04LjE3MyA2LjAzNS0xMC4xMTlsLjYwOC44MDljLTMuMzUzIDEuNzU1LTUuNjQzIDUuMjY3LTUuNjQzIDkuMzEgMCA1Ljc5NSA0LjcwNSAxMC41IDEwLjUgMTAuNXMxMC41LTQuNzA1IDEwLjUtMTAuNWMwLTQuMDQzLTIuMjktNy41NTUtNS42NDMtOS4zMWwuNjA4LS44MDl6bS00Ljk2NS0yLjM4MXYxNC44MjZsMy43NDctNC42MDQuNzUzLjY2Ni01IDYuMTEyLTUtNi4xMDEuNzM3LS42NzkgMy43NjMgNC42MDh2LTE0LjgyOGgxeiIvPjwvc3ZnPg==">
+           <p>Downloads</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yNCAyM2gtMjR2LTIxaDI0djIxem0tMjAtMXYtNGgtM3Y0aDN6bTE1IDB2LTE5aC0xNHYxOWgxNHptNCAwdi00aC0zdjRoM3ptLTYtOS41bC05IDV2LTEwbDkgNXptMyAuNXY0aDN2LTRoLTN6bS0xNiA0di00aC0zdjRoM3ptNS0xLjJsNS45NDEtMy4zLTUuOTQxLTMuM3Y2LjZ6bTExLTcuOHY0aDN2LTRoLTN6bS0xNiA0di00aC0zdjRoM3ptMTYtOXY0aDN2LTRoLTN6bS0xNiA0di00aC0zdjRoM3oiLz48L3N2Zz4=">
+          <p>Filmes</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yMiAyNGgtMTdjLTEuNjU3IDAtMy0xLjM0My0zLTN2LTE4YzAtMS42NTcgMS4zNDMtMyAzLTNoMTd2MjR6bS0yLTRoLTE0LjUwNWMtMS4zNzUgMC0xLjM3NSAyIDAgMmgxNC41MDV2LTJ6bTAtMThoLTN2OWwtMi0xLjU0Ny0yIDEuNTQ3di05aC04djE2aDE1di0xNnoiLz48L3N2Zz4=">
+          <p>Aprender</p>
+        </div>
+        <div class="button">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNi45NjUgMTAuNjk0bC0xLjAzNy0xLjAzNy0xLjAzNyAxLjAzNyAxLjAzNyAxLjAzNy0uNzA3LjcwNy0xLjAzNy0xLjAzNy0xLjAzNyAxLjAzNyAxLjAzNyAxLjAzNi0uNzA3LjcwNy0xLjAzOS0xLjAzNy0xLjAzNyAxLjAzNyAxLjAzNyAxLjAzNi0uNzA3LjcwNy0xLjAzNy0xLjAzNi0xLjAzNyAxLjAzNyAxLjAzNyAxLjAzNi0uNzA3LjcwNy0zLjQ5LTMuNDg3LjcwOC0uNzA3IDEuMDM3IDEuMDM3IDEuMDM4LTEuMDM3LTEuMDM4LTEuMDM2LjcwOC0uNzA3IDEuMDM3IDEuMDM2IDEuMDM3LTEuMDM2LTEuMDM3LTEuMDM3LjcwNy0uNzA3IDEuMDM3IDEuMDM3IDEuMDM3LTEuMDM3LTEuMDM3LTEuMDM2LjcwNy0uNzA3IDEuMDM5IDEuMDM2IDEuMDM3LTEuMDM2LTEuMDM3LTEuMDM3LjcwNy0uNzA3IDMuNDg4IDMuNDg3LS43MDcuNzA3em0tNy41ODEtOC41MThjLTEuNDkuODMyLTIuODkzIDEuODc4LTQuMTEzIDMuMDk4LTEuMjY0IDEuMjYzLTIuMjkyIDIuNjY1LTMuMSA0LjExMy40NDkgNS4wNzEgNi42OTUgMTEuNDExIDEyLjM2NiAxMi42NjYgMS41MTYtLjc3NyAzLjAxMi0xLjgxIDQuMzYyLTMuMTYgMS4yOTQtMS4yOTIgMi4zNDUtMi43ODEgMy4xNTYtNC4zNTMtMS4yNDMtNS42NjYtNy41OTctMTEuOTIyLTEyLjY3MS0xMi4zNjRtLTguNTQyIDEwLjE5OGMtLjU1MyAxLjYzMi0uODQxIDMuMjU0LS44NDEgNC43NDkgMCAyLjIxOC42MTggNC4wOTYgMS43NzkgNS4yNTggMS4wNDUgMS4wNDMgMi44NjYgMS42MTkgNS4xMjkgMS42MTkgMS4zNzUgMCAzLjAyLS4yMzUgNC43NDEtLjc2OS00LjcxLTEuOTk0LTkuMTQyLTYuNDMzLTEwLjgwOC0xMC44NTdtMTEuNTQ4LTExLjUzN2MxLjU4OC0uNTQyIDMuMjAyLS44MzcgNC43NDctLjgzNyAyLjIzNCAwIDQuMDk5LjYzNCA1LjI1MiAxLjc4OCAxLjA0NyAxLjA0NSAxLjYxMSAyLjkxIDEuNjExIDUuMTM1IDAgMS41MzItLjI1OCAzLjE0Ni0uNzU4IDQuNzQyLTEuOTktNC43MTYtNi40MjktOS4xNTMtMTAuODUyLTEwLjgyOCIvPjwvc3ZnPg==">
+          <p>Esportes</p>
+        </div>
+      </aside>
+
+      <div class="grid">
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <div class="info">
+             <img id="channel-picture" src="https://ruffandtumbledogcoats.com/cdn/shop/files/pip-and-red_1050x.jpg?v=1686571113" alt="">
+            <div class="itemtext">
+              <h1>Vídeo Sobre Natureza</h1>
+              <h2>2,1 mil vizualizações</h2>
+              <h3>Transmitido há 2 dias</h3>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </body>
+</html>
